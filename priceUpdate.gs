@@ -49,9 +49,9 @@ function createDictionaryFromSheet() {
   // }
 }}
 
-// Пример функции для отправки запроса
+
 function sendRequest(data) {
-  var url = "https://discounts-prices-api.wb.ru/api/v2/upload/task"; // Укажите URL вашего API
+  var url = "https://discounts-prices-api.wb.ru/api/v2/upload/task"; 
   var wb_api_token = "ВАШ_ТОКЕН"  //замените ВАШ_ТОКЕН на ваш api токен wildberries
     var headers = {
     "Authorization": "Bearer ${wb_api_token}",
